@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
-import UseEffectEx from './hookex/UseEffectEx'
-import RefEx from './hookex/RefEx'
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+ const App = ()=> {
+  return (
+    <div>
+      <Navbar/>
+    </div>
+  )
+ }
+  
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className='app'>
-        
-        <RefEx/>
-      </div>
-    )
-  }
-}
+export default App;

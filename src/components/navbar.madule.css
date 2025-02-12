@@ -1,0 +1,22 @@
+#navBlock {
+    width: 19%;
+    height: 80px;
+    box-shadow: 1px 1px 10px 1px #a7a7a7;   }
+  
+  #navBlock > article {
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   }
+  
+  .logoBlock > img {
+    width: 140px; 
+  }
+  
+  .menuBlock > ul{
+    list-style-type: none;
+    display: flex;
+  }
+  
