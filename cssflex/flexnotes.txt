@@ -1,0 +1,37 @@
+CSS FLEX:
+-moving of html element with respect to the main-axis is called css flex
+-css flex is one dimensional
+-it is responisve by default
+-to work with flex parent and child relationship is mandatory
+CSS FLEX PROPERTY:
+    1)display:flex
+    it is used to convert block level element into line element
+
+    2)gap
+    it is used to provide gap between html elements
+
+    3)justify-content
+    it is usde to move the hmtl content horizontally
+
+    4)aligin-items
+    flex-start,flex-end & center/stretch
+    it is used to move the html elemets vertically(default is stretced)
+    (height is mandatory here)
+
+    5)flex-direction
+    it is used to change the direction of html elemts/flex items(default is row)
+
+    6)Order
+    it is used to change the order of the html elements
+
+    7)flex-wrap:(wrap/nowrap/wrap-reverse
+    it is used to wrap the html elements(default is no wrap)
+
+    8)flex-basis
+    it is used to
+
+    9)flex-grow
+    it is usde to specify grow or expand-proportion to a particular item
+
+    10)flex-shrink
+    is is used to specify collapse or a compression to a particular item
