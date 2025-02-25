@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 40% 30% 30%;
+        grid-template-rows: 10% 40% 40% 10%;
+    }
+    .header{
+        background-color: blueviolet;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .sidebar{
+        background-color: aquamarine;
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .c1{
+        background-color: lightgreen;
+        grid-column: 2/4;
+        grid-row: 2/3;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        
+    }
+    .c2{
+        background-color: rgb(229, 211, 6);
+        grid-column: 2/3;
+        grid-row: 3/4;
+       
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .c3{
+        background-color: rgb(4, 212, 150);
+        grid-column: 3/4;
+        grid-row: 3/4;
+        margin-bottom: 5px;
+        
+        
+    }
+    .footer{
+        background-color: coral;
+        grid-column: 1/4;
+        grid-row: 4/5;
+
+    }
+
+</style>
+<body>
+    <section class="parent">
+    <section class="header">Header</section>
+    <section class="sidebar">sidebar</section>
+    <section class="c1">content1</section>
+    <section class="c2">content2</section>
+    <section class="c3">content3</section>
+    <section class="footer">footer</section>
+
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: auto 1fr auto auto auto;
+            grid-template-areas: 
+                "header header"
+                "nav article"
+                "nav ads"
+                "footer footer";
+            height: 100vh;
+            gap: 10px;
+            background: black;
+            padding: 10px;
+        }
+        header, nav, article, .ads, footer {
+            background: #a3c400;
+            padding: 20px;
+            color: black;
+            font-weight: bold;
+        }
+        header {
+            grid-area: header;
+        }
+        nav {
+            grid-area: nav;
+        }
+        article {
+            grid-area: article;
+        }
+        .ads {
+            grid-area: ads;
+        }
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <article>Article</article>
+    <div class="ads">Ads</div>
+    <footer>Footer</footer>
+</body>
+</html> -->
